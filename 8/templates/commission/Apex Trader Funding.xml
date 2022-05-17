@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Filename: Apex Trader Funding.xml
+Author: Richard Diphoorn
+Twitter: rdtechie
+GitHub: rdtechie
+Version: 1.0
+
+Description: NinjaTrader 8 Commission Template for Traders that use Apex Trader Funding as propietary firm.
+
+Usage: Shutdown NinjaTrader. Open File Explorer. Put this file in: Documents\NinjaTrader 8\templates\Commission
+Start NinjaTrader again. Then apply this template to each Apex Trader Funding account that you have:
+1. Rightclick on the account
+2. Select Edit
+3. Select Commission template "Apex Trader Funding"
+4. Ok.
+
+Source for Commissions Information: https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-What-Are-The-Commissions-
+-->
+<NinjaTrader>
+  <Commission xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Apex Trader Funding</Name>
+    <ByInstrumentType>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+      <InstrumentCommission>
+        <Currency>UsDollar</Currency>
+        <Fee>0</Fee>
+        <Minimum>0</Minimum>
+        <PerUnit>0</PerUnit>
+      </InstrumentCommission>
+    </ByInstrumentType>
+    <MasterInstrumentsSerializable>
+      <!-- Equity Futures -->
+      <string>ES|0|0|0|0|1.99</string>
+      <string>NKD|0|0|0|0|1.99</string>
+      <string>NQ|0|0|0|0|1.99</string>
+      <string>YM|0|0|0|0|1.99</string>
+      <string>EMD|0|0|0|0|1.99</string>
+      <string>RTY|0|0|0|0|1.99</string>
+      <!-- Interest Rate Futures -->
+      <string>GE|0|0|0|0|2.01</string>
+      <string>ZT|0|0|0|0|1.36</string>
+      <string>ZF|0|0|0|0|1.41</string>
+      <string>ZN|0|0|0|0|1.51</string>
+      <string>ZB|0|0|0|0|1.56</string>
+      <string>UB|0|0|0|0|1.72</string>
+      <!-- Currency Futures -->
+      <string>6A|0|0|0|0|2.36</string>
+      <string>6B|0|0|0|0|2.36</string>
+      <string>6C|0|0|0|0|2.36</string>
+      <string>6E|0|0|0|0|2.36</string>
+      <string>6J|0|0|0|0|2.36</string>
+      <string>6S|0|0|0|0|2.36</string>
+      <string>6N|0|0|0|0|2.36</string>
+      <!-- Agricultural Futures -->
+      <string>HE|0|0|0|0|2.79</string>
+      <string>LE|0|0|0|0|2.79</string>
+      <string>GF|0|0|0|0|2.79</string>
+      <string>ZC|0|0|0|0|2.79</string>
+      <string>ZW|0|0|0|0|2.79</string>
+      <string>ZS|0|0|0|0|2.79</string>
+      <string>ZM|0|0|0|0|2.79</string>
+      <string>ZL|0|0|0|0|2.79</string>
+      <!-- Energy Futures -->
+      <string>CL|0|0|0|0|1.98</string>
+      <string>QM|0|0|0|0|1.96</string>
+      <string>NG|0|0|0|0|1.98</string>
+      <string>QG|0|0|0|0|1.26</string>
+      <string>HO|0|0|0|0|1.98</string>
+      <string>RB|0|0|0|0|1.98</string>
+      <!-- Metal Futures -->
+      <string>GC|0|0|0|0|2.31</string>
+      <string>SI|0|0|0|0|2.31</string>
+      <string>HG|0|0|0|0|2.31</string>
+      <string>PL|0|0|0|0|2.31</string>
+      <string>PA|0|0|0|0|2.31</string>
+      <string>QI|0|0|0|0|1.51</string>
+      <string>QO|0|0|0|0|1.51</string>
+      <!-- Micro Futures -->
+      <string>MES|0|0|0|0|0.51</string>
+      <string>MYM|0|0|0|0|0.51</string>
+      <string>MNQ|0|0|0|0|0.51</string>
+      <string>M2K|0|0|0|0|0.51</string>
+      <string>MGC|0|0|0|0|0.76</string>
+      <string>M6A|0|0|0|0|0.42</string>
+      <string>M6E|0|0|0|0|0.42</string>
+      <string>M6J|0|0|0|0|0.42</string>
+      <string>MCL|0|0|0|0|0.51</string>
+      <string>MBT|0|0|0|0|2.76</string>
+    </MasterInstrumentsSerializable>
+    <Version>-3078</Version>
+  </Commission>
+</NinjaTrader>
